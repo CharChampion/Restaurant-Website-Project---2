@@ -6,7 +6,9 @@ body{
 .navbar{
     overflow:hidden;
     background-color: rgb(130, 185, 168);
-    height:50px
+    height:1000px;
+    font-size:50px;
+    gap:15px;
 }
 
 .topnav a{
@@ -25,4 +27,8 @@ body{
 
 .topnav a.active{
     background-color: #ffe066;
+}
+
+.home{
+    float:left;
 }
